@@ -1,0 +1,19 @@
+#bounds {
+    padding: 1%;
+}
+
+#footer {
+    height: 50px;
+    width: 100%;
+    background-color: #1b96c7;
+    clear: both;
+    position: relative;
+}
+
+#name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+    color: #ffffff;
+}
