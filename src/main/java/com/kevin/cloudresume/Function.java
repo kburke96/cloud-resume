@@ -83,7 +83,7 @@ public class Function {
         if (name == null) {
             return request.createResponseBuilder(HttpStatus.BAD_REQUEST).body("Please pass a name on the query string or in the request body").build();
         } else {
-            return request.createResponseBuilder(HttpStatus.OK).body("Hello, " + name + ". This is the updated version!").build();
+            return request.createResponseBuilder(HttpStatus.OK).body("Hello there, " + name + ". This is the updated version!").build();
         }
     }
 }
